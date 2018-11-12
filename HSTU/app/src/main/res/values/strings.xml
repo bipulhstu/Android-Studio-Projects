@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HSTU</string>
+    <string name="title_text">Attention Please</string>
+    <string name="message_text">Do you want to exit?</string>
+</resources>

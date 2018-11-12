@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+   <string name="login_button"> Login </string>
+    <string name="logout_button"> Logout </string>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CountryProfileDemo</string>
+    <string name = "title_text">Alert</string>
+    <string name= "message_text">Do you want to exit?</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="india">India</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="bangladesh_text">I am writing to express my interest in the  Summer Trainee Engineering Program, STEP 2018 - Europe. The opportunity presented in this listing is very appealing and I believe I will be a very competitive candidate for this position as this is in exact sync with my educational background as well as in line with my career goals.
+After meticulously going through the job roles and responsibilities I consider myself to be an apt fit for the role. I possess exceptional research and analytical skills which I developed as a Masters student in technology management with concentration in Data Science. I have been extensively involved in working in the field of data as part of my job and academic projects.
+During my course of study I have also developed several skills like competitive analysis, strategic investigation, problem-solving, meeting deadlines, teamwork, delivering effective presentations, multitasking to name a few. I believe I have a lot to offer as well as gain from this position and am sure it will be an enriching experience.
+It will be a great opportunity for me to have an interview session with you. Thank you for your time and consideration.
+</string>
+    <string name="india_text">I am writing to express my interest in the  Summer Trainee Engineering Program, STEP 2018 - Europe. The opportunity presented in this listing is very appealing and I believe I will be a very competitive candidate for this position as this is in exact sync with my educational background as well as in line with my career goals.
+After meticulously going through the job roles and responsibilities I consider myself to be an apt fit for the role. I possess exceptional research and analytical skills which I developed as a Masters student in technology management with concentration in Data Science. I have been extensively involved in working in the field of data as part of my job and academic projects.
+During my course of study I have also developed several skills like competitive analysis, strategic investigation, problem-solving, meeting deadlines, teamwork, delivering effective presentations, multitasking to name a few. I believe I have a lot to offer as well as gain from this position and am sure it will be an enriching experience.
+It will be a great opportunity for me to have an interview session with you. Thank you for your time and consideration.
+</string>
+    <string name="pakistan_text">I am writing to express my interest in the  Summer Trainee Engineering Program, STEP 2018 - Europe. The opportunity presented in this listing is very appealing and I believe I will be a very competitive candidate for this position as this is in exact sync with my educational background as well as in line with my career goals.
+After meticulously going through the job roles and responsibilities I consider myself to be an apt fit for the role. I possess exceptional research and analytical skills which I developed as a Masters student in technology management with concentration in Data Science. I have been extensively involved in working in the field of data as part of my job and academic projects.
+During my course of study I have also developed several skills like competitive analysis, strategic investigation, problem-solving, meeting deadlines, teamwork, delivering effective presentations, multitasking to name a few. I believe I have a lot to offer as well as gain from this position and am sure it will be an enriching experience.
+It will be a great opportunity for me to have an interview session with you. Thank you for your time and consideration.
+</string>
+</resources>

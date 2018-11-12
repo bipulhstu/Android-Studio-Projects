@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/rate"
+        android:title="Rate this app">
+    </item>
+
+</menu>

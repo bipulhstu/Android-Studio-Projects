@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="7">
+        <Button
+            android:id="@+id/chash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="c#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/dhash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="d#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/fhash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="f#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/ghash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="g#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/ahash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="a#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c1hash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="c1#"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/d1hash"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="d1#"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="11">
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="c" />
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="d"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="e"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="f"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/g"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:text="g" />
+        <Button
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="a"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="b"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="c1"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/d1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="d1"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="e1"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+

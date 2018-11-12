@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ListViewDemo</string>
+    <string name="title_text">Attention</string>
+    <string name="message_text">Do you want to exit?</string>
+    <string-array name="country_name">
+        <item>Afganistan</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>China</item>
+        <item>India</item>
+
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Afganistan</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>China</item>
+        <item>India</item>
+
+        <item>Pakistan</item>
+        <item>Nepal</item>
+
+
+
+
+    </string-array>
+</resources>
