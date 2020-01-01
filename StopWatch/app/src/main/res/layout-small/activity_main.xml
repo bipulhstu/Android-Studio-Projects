@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#211044"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageViewId"
+        android:src="@drawable/icget"
+        android:layout_marginTop="0dp"
+        android:layout_width="380dp"
+        android:layout_height="390dp" />
+
+    <TextView
+        android:id="@+id/boldTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Healthy On You"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewId" />
+
+    <TextView
+        android:id="@+id/normalTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Key of happiness is not a \n        life for money"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8dp"
+        android:textColor="#A3A2AD"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/boldTextViewId"/>
+
+
+    <Button
+        android:id="@+id/buttonTextViewId"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="Get Started"
+        android:background="@drawable/bgbtngreen"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

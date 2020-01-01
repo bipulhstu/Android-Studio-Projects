@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AutoLinkDemo</string>
+    <string name="auto_link_text">
+        Name  : Bipul Islam\n
+        email : bipulhstu@gmail.com\n
+        Phone : +8801777833756\n
+        website: bipulhstu.github.io/me\n
+    </string>
+</resources>

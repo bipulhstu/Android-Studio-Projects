@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/aboutUsBottomMenuId"
+            android:title="@string/bottom_menu_contactus"
+            android:icon="@drawable/ic_cream"
+
+            />
+        <item
+            android:id="@+id/contactUsButtomMenuId"
+            android:title="@string/bottom_menu_contactus"
+            android:icon="@drawable/ic_barba"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/notificationBottomMenuId"
+            android:title="@string/bottom_menu_notification"
+            android:icon="@drawable/ic_notifications"
+            app:showAsAction="ifRoom"
+            />
+    </group>
+</menu>

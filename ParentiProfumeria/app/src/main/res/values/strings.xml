@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ParentiProfumeria</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profumi">Profumi</string>
+    <string name="menu_makeup">Makeup</string>
+    <string name="menu_cream">Creme</string>
+    <string name="menu_barba">Barba</string>
+    <string name="menu_ambient">Ambienti</string>
+    <string name="menu_news">News</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_registration">Registrazione</string>
+    <string name="menu_forgetpassword">Recupera Password</string>
+    <string name="menu_shoppingcard">Carrello</string>
+    <string name="bottom_menu_aboutus">Chi Siamo</string>
+    <string name="bottom_menu_contactus">Contatti</string>
+    <string name="bottom_menu_notification">Notification</string>
+    <string name="store_adress">
+    <a href="http://bit.ly/parenti_profumeria">Via Monte Santo,32-00195 Roma</a>
+    </string>
+    <string name="facebook">
+        <a href="https://www.facebook.com/ParentiProfumeria/">Follow us on Facebook</a>
+    </string>
+    <string name="instagram">
+        <a href="https://www.instagram.com/parentiprofumeria/">Follow us on Instagram</a>
+    </string>
+
+    <string name="alert_title_text">Parenti Profumeria</string>
+    <string name="alert_message_text">Do you want to exit?</string>
+    <string name="about_us_text1"></string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">OLFATTO | PROFUMI</string>
+    <string name="slide_1_desc">Il tuo profumo preferito ti sta aspettando !</string>
+
+    <string name="slide_2_title">VISTA | TRUCCO</string>
+    <string name="slide_2_desc">Il tuo trucco ti sta aspettando!</string>
+
+    <string name="slide_3_title">TATTO | CREMA</string>
+    <string name="slide_3_desc">La tua crema preferita ti sta aspettando!</string>
+
+    <string name="slide_4_title">BARBA</string>
+    <string name="slide_4_desc">La tua barba preferita ti sta aspettando!</string>
+
+    <string name="slide_5_title">AMBIENTI</string>
+    <string name="slide_5_desc">La tua ambienti preferita ti sta aspettando!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

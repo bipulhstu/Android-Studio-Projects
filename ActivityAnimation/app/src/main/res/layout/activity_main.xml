@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="default"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="Default" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="left-to-right"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="lefttoright" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="right-to-left"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="righttoleft" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bottom-to-up"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="bottomtoup" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="up-to-bottom"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="uptobottom" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fadein-to-fadeout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="fadeintofadeout" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rotateout-to-rotatein"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="rotateouttorotatein" />
+
+
+</LinearLayout>

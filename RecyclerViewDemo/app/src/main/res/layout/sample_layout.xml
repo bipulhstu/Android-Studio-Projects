@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/au"
+        android:id="@+id/myImageViewId"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:id="@+id/titleTextViewId"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+ <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/descriptionTextViewId"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Description will be placed here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

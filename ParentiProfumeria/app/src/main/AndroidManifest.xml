@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.parentiprofumeria.parentiprofumeria">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".NotificationDetailsActivity"
+            android:label="Notification Details">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="Chi Siamo">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notification" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="Contatti" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfumiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakeupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreamActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarbaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmbientActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IntroSliderActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.onesignal.OSNotificationOpened.DEFAULT"
+            android:value="DISABLE"/>
+        <service
+            android:name=".MyNotificationExtenderService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false">
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

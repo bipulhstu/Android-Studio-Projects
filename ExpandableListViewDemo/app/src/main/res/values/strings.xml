@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExpandableListViewDemo</string>
+    <string-array name="abbr_list_header">
+        <item>ALU</item>
+    </string-array>
+    <string-array name="abbr_list_child">
+        <item>Arithmetic Logic Unit\n\n
+        Arithmetic Logic Unit is a very important section of computer. It controls all the logic of the computer.</item>
+    </string-array>
+</resources>

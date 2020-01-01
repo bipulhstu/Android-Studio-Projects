@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            app:reverseLayout="true"
+            app:stackFromEnd="true" />
+
+        <ImageView
+            android:id="@+id/noNotifications"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_notifications_off_black_24dp" />
+
+
+
+    </RelativeLayout>
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="16dp"
+    android:backgroundTint="@color/colorPrimary"
+    android:src="@drawable/ic_delete_black_24dp"
+    app:fabSize="normal"
+    android:id="@+id/floating_delete_button"
+    app:elevation="6dp"
+    />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

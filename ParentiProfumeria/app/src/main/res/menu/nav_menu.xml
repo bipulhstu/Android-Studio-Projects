@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeMenuId"
+            android:title="@string/menu_home"
+            android:icon="@drawable/home200"
+            />
+        <item
+            android:id="@+id/profumiMenuId"
+            android:title="@string/menu_profumi"
+            android:icon="@drawable/perfume200" />
+        <item
+            android:id="@+id/makeupMenuId"
+            android:title="@string/menu_makeup"
+            android:icon="@drawable/makeup200" />
+        <item
+            android:id="@+id/creamMenuId"
+            android:title="@string/menu_cream"
+            android:icon="@drawable/cream200" />
+        <item
+            android:id="@+id/barbaMenuId"
+            android:title="@string/menu_barba"
+            android:icon="@drawable/razor200" />
+        <item
+            android:id="@+id/ambientiMenuId"
+            android:title="@string/menu_ambient"
+            android:icon="@drawable/ambienti200" />
+        <item
+            android:id="@+id/newsMenuId"
+            android:title="@string/menu_news"
+            android:icon="@drawable/news200" />
+        <item
+            android:id="@+id/shoppingCartMenuId"
+            android:title="@string/menu_shoppingcard"
+            android:icon="@drawable/cart200" />
+    </group>
+    <item android:title="Users Section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/loginMenuId"
+                    android:title="@string/menu_login"
+                    android:icon="@drawable/login200" />
+                <item
+                    android:id="@+id/registrationMenuId"
+                    android:title="@string/menu_registration"
+                    android:icon="@drawable/registration200" />
+                <item
+                    android:id="@+id/forgetPasswordMenuId"
+                    android:title="@string/menu_forgetpassword"
+                    android:icon="@drawable/passwordrecovery100" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FragmentDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bipul_details">
+        \nName: Bipul Islam
+        \nAge : 23
+        \nPhone: +8801777833756
+    </string>
+    <string name="dino_details">
+        \nName: Dinonath Roy
+        \nAge : 23
+        \nPhone: +8801777833756
+    </string>
+    <string name="soro_details">
+        \nName: Sorwar Hossain
+        \nAge : 23
+        \nPhone: +8801777833756
+    </string>
+
+</resources>

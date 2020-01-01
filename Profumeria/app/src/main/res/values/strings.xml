@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Profumeria</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profumi">Profumi</string>
+    <string name="menu_makeup">Makeup</string>
+    <string name="menu_cream">Creme</string>
+    <string name="menu_barba">Barba</string>
+    <string name="menu_ambient">Ambienti</string>
+    <string name="menu_news">News</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_registration">Registrazione</string>
+    <string name="menu_forgetpassword">Recupera Password</string>
+    <string name="menu_shoppingcard">Carrello</string>
+    <string name="bottom_menu_aboutus">Chi siamo</string>
+    <string name="bottom_menu_contactus">Contatti</string>
+    <string name="bottom_menu_notification">Notification</string>
+</resources>

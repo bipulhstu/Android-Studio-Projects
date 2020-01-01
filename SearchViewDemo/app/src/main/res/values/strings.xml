@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SearchViewDemo</string>
+    <string-array name="country_names">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Bhutan</item>
+        <item>SriLanka</item>
+        <item>Nepal</item>
+        <item>Malaysia</item>
+        <item>Japan</item>
+        <item>Afganistan</item>
+        <item>USA</item>
+
+
+    </string-array>
+</resources>

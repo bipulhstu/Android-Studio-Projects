@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageVeiw"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgapp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InvalidId" />
+    <View
+        android:background="@drawable/bgoverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Travel Like You Never Lost"
+        android:textColor="#FFF"
+        android:textSize="42sp"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageVeiw"/>
+
+    <TextView
+        android:id="@+id/textView2Id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Simply Dummy Text Make the Design Beautiful"
+        android:textColor="#FFF"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="44dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewId" />
+
+    <Button
+        android:id="@+id/getStartedButtonId"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bgbtn"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2Id"
+        />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

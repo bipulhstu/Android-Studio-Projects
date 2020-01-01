@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+    <string-array name="country_description">
+        <item>Australia is beautiful</item>
+        <item>Bangladesh is beautiful</item>
+        <item>Bhutan is beautiful</item>
+        <item>Canada is beautiful</item>
+        <item>China is beautiful</item>
+        <item>Denmark is beautiful</item>
+        <item>England is beautiful</item>
+        <item>Finlad is beautiful</item>
+        <item>Ghana is beautiful</item>
+        <item>India is beautiful</item>
+        <item>Japan is beautiful</item>
+        <item>Pakistan is beautiful</item>
+    </string-array>
+
+    <string-array name="country_names">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>England</item>
+        <item>Finland</item>
+        <item>Ghana</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Pakistan</item>
+
+
+    </string-array>
+</resources>

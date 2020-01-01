@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".ContactUsActivity">
+
+        <ImageView
+            android:id="@+id/addressImageViewid"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="240dp"
+            android:src="@drawable/ic_online_store"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/callImageViewid"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_call"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressImageViewid" />
+
+        <ImageView
+            android:id="@+id/emailImageViewid"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_gmail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/callImageViewid" />
+
+        <ImageView
+            android:id="@+id/facebookImageViewid"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_facebook"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailImageViewid" />
+
+        <ImageView
+            android:id="@+id/instagramImageViewid"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_instagram"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/facebookImageViewid" />
+
+        <TextView
+            android:id="@+id/addressTextViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="252dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorLink="#00897B"
+            android:text="@string/store_adress"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/addressImageViewid"
+            app:layout_constraintStart_toEndOf="@+id/addressImageViewid"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/callTextViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:autoLink="all"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="+30 0637515842"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorLink="#00897B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/callImageViewid"
+            app:layout_constraintStart_toEndOf="@+id/callImageViewid"
+            app:layout_constraintTop_toBottomOf="@id/addressTextViewid" />
+
+        <TextView
+            android:id="@+id/emailTextViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:autoLink="all"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="info@parentiprofumeria.com"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorLink="#00897B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/emailImageViewid"
+            app:layout_constraintStart_toEndOf="@+id/emailImageViewid"
+            app:layout_constraintTop_toBottomOf="@id/callTextViewid" />
+
+        <TextView
+            android:id="@+id/facebookTextViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/facebook"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorLink="#00897B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/facebookImageViewid"
+            app:layout_constraintStart_toEndOf="@+id/facebookImageViewid"
+            app:layout_constraintTop_toBottomOf="@id/emailTextViewid" />
+
+        <TextView
+            android:id="@+id/instagramTextViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/instagram"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorLink="#00897B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/instagramImageViewid"
+            app:layout_constraintStart_toEndOf="@+id/instagramImageViewid"
+            app:layout_constraintTop_toBottomOf="@id/facebookTextViewid" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsingToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/about_us_image"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
